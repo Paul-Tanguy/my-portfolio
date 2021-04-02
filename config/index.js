@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@kallax",
+  siteTitle: "Kallax's Neocave",
+  siteShortTitle: "Neocave", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "The one place for Neogamers",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Neocave", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   
   // -- THEME SETTINGS -----
   colors: {
@@ -25,10 +25,10 @@ module.exports = {
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
     darkTheme: {
-      primary: "#FAFAFA",
+      primary: "#ff0055",
       secondary: "#2A2926",
       tertiary: "#252525",
-      text: "rgba(255, 255, 255, 0.87)",
+      text: "#00ffff",//"rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
       background: "#121212",
       card: "#1C1C1C",
@@ -55,32 +55,32 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/paul-tanguy-86b8111a2/",
     },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
-    },
+    // {
+    //   name: "Medium",
+    //   url: "https://konstantinmuenster.medium.com/",
+    // },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
-    },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+        "https://github.com/Paul-Tanguy/my-portfolio",
     },
     // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   name: "Behance",
+    //   url: "https://www.behance.net/konstanmnster",
     // },
+    {
+      name: "Mail",
+      url: "mailto:paul.tanguy@epitech.eu",
+    },
   ],
 
   //-- NAVIGATION SETTINGS -----
   navLinks: {
     menu: [
       {
-        name: "About Me",
+        name: "Who am I?",
         url: "/#about",
       },
       {
